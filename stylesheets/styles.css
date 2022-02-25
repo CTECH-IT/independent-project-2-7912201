@@ -1,1 +1,27 @@
-/* Put your CSS here */
+@font-face {
+    font-family: lakeshore;
+    font-weight: normal;
+    font-style: normal;
+    src: url("fonts/LAKESHOR-webfont.eot");
+    src: url("fonts/LAKESHOR-webfont.eot?#iefix") format("embedded-opentype"),
+         url("fonts/LAKESHOR-webfont.woff") format("woff"),
+         url("fonts/LAKESHOR-webfont.ttf") format("truetype"),
+         url("fonts/LAKESHOR-webfont.svg#lakeshore") format("svg");
+}
+
+
+html, body {
+    height: 100%
+}
+
+body {
+    background: linear-gradient(to top, #417dff, #b0dfff) no-repeat;
+    background-size: 100%;
+}
+
+.titlebar {
+    background: white;
+    box-shadow: 2px 2px 5px rgb(153, 153, 255);
+    text-align: center;
+    font-family: lakeshore
+}
