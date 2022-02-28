@@ -10,6 +10,15 @@
 }
 
 
+@font-face {
+    font-family: typo;
+    font-weight: normal;
+    font-style: normal;
+
+    src: url("fonts/Typo.ttf") format("truetype");
+
+}
+
 html, body {
     height: 100%
 }
@@ -23,5 +32,5 @@ body {
     background: white;
     box-shadow: 2px 2px 5px rgb(153, 153, 255);
     text-align: center;
-    font-family: lakeshore
+    font-family: typo;
 }
