@@ -1,13 +1,12 @@
-const NEWTEXT = '[data-role="newtext"]';
-const ARTICLETITLE = '[data-role="articletitle"]';
-const ARTICLETEXT = '[data-role="articletext"]';
 
-console.log(NEWTEXT.getAttribute("data-title"));
-console.log(ARTICLETEXT);
-console.log(ARTICLETITLE);
+//change the articletitle and articletext to title and text provided by the element clicked.
+//happens onclick
 
 function changeArticle(title, text) {
-    document
+    document.getElementById("articletitle").innerHTML = title;
+    document.getElementById("articletext").innerHTML = text;
+    document.getElementById("article").classList.add("articleanimation");
+    setTimeout(function() {
+        document.getElementById("article").classList.remove("articleanimation");
+    }, 200)
 }
-
-//get element by id, change the text and images

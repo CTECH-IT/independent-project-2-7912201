@@ -18,31 +18,35 @@
   </header>
   <ul class = "sidebar">
     <li class = "fleximage">
-      <a href = "#" data-role="newtext" data-title="Summary" data-text="Lorem Ipsum #1">
+      <a href = "#" class = "sidebarlink" onclick="changeArticle('SUMMARY', 'Conservation MN is a Non-profit organization based in Minnesota, foand is focused on ', '')"">
       <p>Summary</p></a>
-      <span class="invisible">Lorem Ipsum #1</span>
     </li>
     <li class = "fleximage">
-      <a href = "#" data-role="newtext" data-title="Water" data-text="Water your mom test text" onclick="changeArticle(nnn, mmm)">
+      <a href = "#" class = "sidebarlink" onclick="changeArticle('WATER', 'mmm', '')">
         <p>Water</p></a>
     </li>
     <li class = "fleximage">
-      <a href = "#" data-role="newtext">
+      <a href = "#" class = "sidebarlink" onclick="changeArticle('LAND', 'mmm', '')">
         <p>Land</p></a>
     </li>
     <li class = "fleximage">
-      <a href = "#" data-role="newtext">
+      <a href = "#" class = "sidebarlink" onclick="changeArticle('TOXINS', 'mmm', '')">
         <p>Toxins</p></a>
     </li>
     <li class = "fleximage">
-      <a href = "#" data-role="newtext">
+      <a href = "#" class = "sidebarlink" onclick="changeArticle('CLIMATE', 'mmm', '')">
         <p>Climate</p></a>
+    </li>
+    <li class = "fleximage">
+      <a href = "#" class = "sidebarlink" onclick="changeArticle('DONATE', 'Please visit the official Conservation MN Web Site to donate:', 'https://www.conservationminnesota.org/donate')">
+        <p>Donate</p></a>
     </li>
   </ul>
   <main class="maincontent">
-    <div class="article">
-      <h1 class="articletitle" data-role = "articletitle">SUMMARY</h1>
-      <p class="articletext" data-role = "articletext">Lorem Ipsum #1</p>
+    <div class="article" id="article">
+      <h1 class="articletitle" id="articletitle">SUMMARY</h1>
+      <p class="articletext" id="articletext">Lorem Ipsum #1</p>
+      <a class="donation" id="donation" href="https://www.conservationminnesota.org/donate">
     </div>
 
   </main>
