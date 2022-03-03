@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Non-profit thingy</title>
+    <title>Conservation MN</title>
     <meta name="author" content="Caleb Pardeik">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
@@ -18,7 +18,7 @@
   </header>
   <ul class = "sidebar">
     <li class = "fleximage">
-      <a href = "#" class = "sidebarlink" onclick="changeArticle('SUMMARY', 'Conservation MN is a Non-profit organization based in Minnesota, foand is focused on ', '')"">
+      <a href = "#" class = "sidebarlink" onclick="changeArticle('SUMMARY', 'Conservation MN is a Non-profit organization based in Minnesota, focused on  ', '')"">
       <p>Summary</p></a>
     </li>
     <li class = "fleximage">
@@ -41,12 +41,16 @@
       <a href = "#" class = "sidebarlink" onclick="changeArticle('DONATE', 'Please visit the official Conservation MN Web Site to donate:', 'https://www.conservationminnesota.org/donate')">
         <p>Donate</p></a>
     </li>
+    <li class = "fleximage"  >
+      <a href = "#" class = "sidebarlink rickroll" id="rickroll" onclick="changeArticle('Never Gonna Give You Up', 'Never gonna let you down', '')">
+        <p>Never</p></a>
+    </li>
   </ul>
   <main class="maincontent">
     <div class="article" id="article">
       <h1 class="articletitle" id="articletitle">SUMMARY</h1>
       <p class="articletext" id="articletext">Lorem Ipsum #1</p>
-      <a class="donation" id="donation" href="https://www.conservationminnesota.org/donate">
+      <a class="donation" target = "_blank" id="donation" href="https://www.conservationminnesota.org/donate">
     </div>
 
   </main>
